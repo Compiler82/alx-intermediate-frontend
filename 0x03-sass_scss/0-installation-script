@@ -1,0 +1,17 @@
+# How to install saas
+
+Start by
+- nvm (Node Version Manager)
+- Node.js (installable via nvm)
+- npm
+
+Steps
+1. Install nvm using the official install script.
+2. Use nvm to install and switch to a stable Node.js (LTS) version.
+3. Install Sass globally with npm.
+4. Verify the installation with sass --version.
+
+Quick usage
+- Compile a file: sass input.scss output.css
+- Watch changes: sass --watch input.scss:output.css
+- Use the compiled CSS in your project as needed.
